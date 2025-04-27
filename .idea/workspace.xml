@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6d6e457-6054-4380-a9f2-44f5e2500b45" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/auth_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/API_Tests/token/TokenCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UI_Tests/pageobjects/Authorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/configs/ConfigApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/configs/ConfigAuthApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/configs/ConfigBD.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2w8pICap11ggIcQdndCrmpiyfVU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthorizationStandartUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BdTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartForPerformanceGlitchUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartOfStandart_user.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Company.createCompany.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Company.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.createEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.createEmployeeInvalidEmail.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.getCompany.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.getEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.getEmployeesByCompanyId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.getEmployeesByCompanyIdNull.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.patchEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeBisinessTests.createEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeBisinessTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Locked_Out_User.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/PC/IdeaProjects/FinishAttestation/src/main/java/org/example/Main.java&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\FinishAttestation\src\test\java" />
+      <recent name="C:\Users\PC\IdeaProjects\FinishAttestation\src\test\java\configs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EmployeeBisinessTests">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="FinishAttestation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BdTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="configs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BD_Tests.config" />
+      <option name="MAIN_CLASS_NAME" value="BD_Tests.config.BdTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Company" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.Company" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContractTestsEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.ContractTestsEmployee" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeBisinessTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.EmployeeBisinessTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeBisinessTests" />
+        <item itemvalue="JUnit.ContractTestsEmployee" />
+        <item itemvalue="JUnit.Company" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.BdTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6d6e457-6054-4380-a9f2-44f5e2500b45" name="Changes" comment="" />
+      <created>1745432974556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745432974556</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/API_Tests/tests/ContractTestsEmployee.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
