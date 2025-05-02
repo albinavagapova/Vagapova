@@ -5,19 +5,14 @@ pipeline {
         }
     }
     stages {
-        stage("Git Checkout") {
+        stage("Git") {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/albinavagapova/FinishAttestationVagapova']]])
+                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/albinavagapova/FinishAttestationVagapova']]) // скачать проект
             }
         }
-        stage("Run Tests") {
+        stage("Run tests") {
             steps {
                 sh 'mvn clean test'
-            }
-        }
-        stage("Generate Allure Report") {
-            steps {
-                sh 'mvn allure:report'
             }
         }
     }
