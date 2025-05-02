@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage("Git") {
             steps {
-                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/albinavagapova/FinishAttestation']]) // скачать проект
+                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/albinavagapova/FinishAttestationVagapova']]) // скачать проект
             }
         }
         stage("Run tests") {
