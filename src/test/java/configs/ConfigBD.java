@@ -11,11 +11,11 @@ public class ConfigBD {
     static {
         try (InputStream input = ConfigBD.class.getClassLoader().getResourceAsStream("db_config.properties")) {
             if (input == null) {
-                throw new IOException("Файл конфигурации db_config.properties не найден");
+                throw new IOException("Файл db_config.properties не найден");
             }
             properties.load(input);
         } catch (IOException e) {
-            throw new RuntimeException("Ошибка загрузки конфигурации", e);
+            throw new RuntimeException("Ошибка");
         }
     }
 
