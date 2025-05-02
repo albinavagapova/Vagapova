@@ -5,9 +5,9 @@ pipeline {
         }
     }
     stages {
-        stage("Git") {
+        stage("Checkout Repository") {
             steps {
-                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/albinavagapova/FinishAttestationVagapova']]) // скачать проект
+                checkout([$class: 'GitSCM', branches: [[name: 'main']], userRemoteConfigs: [[url: 'https://github.com/albinavagapova/FinishAttestationVagapova']]])
             }
         }
         stage("Run tests") {
@@ -15,10 +15,17 @@ pipeline {
                 sh 'mvn clean test'
             }
         }
+        stage("Generate Allure Report") {
+            steps {
+                sh 'mvn allure:report'
+            }
+        }
     }
     post {
         always {
-            allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+            node {
+                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+            }
         }
     }
 }
