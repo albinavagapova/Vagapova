@@ -6,6 +6,7 @@ import UI_Tests.pageobjects.MainPage;
 import UI_Tests.pageobjects.YourCart;
 import org.junit.jupiter.api.Test;
 
+
 public class AuthorizationStandartUser extends FirstSetup {
 
     @Test
