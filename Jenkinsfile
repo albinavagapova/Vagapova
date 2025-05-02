@@ -1,13 +1,23 @@
-node {
+pipeline {
+    agent {
+        docker {
+            image 'maven'
+        }
+    }
     stages {
-        stage("Git") {
+        stage("Git Checkout") {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/albinavagapova/FinishAttestationVagapova']])
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/albinavagapova/FinishAttestationVagapova']]])
             }
         }
-        stage("Run tests") {
+        stage("Run Tests") {
             steps {
                 sh 'mvn clean test'
+            }
+        }
+        stage("Generate Allure Report") {
+            steps {
+                sh 'mvn allure:report'
             }
         }
     }
