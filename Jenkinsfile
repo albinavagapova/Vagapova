@@ -23,7 +23,7 @@ pipeline {
     }
     post {
         always {
-            node {
+            node('docker') {
                 allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
             }
         }
