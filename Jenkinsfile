@@ -1,13 +1,8 @@
-pipeline {
-    agent {
-        docker {
-            image 'maven'
-        }
-    }
+node {
     stages {
         stage("Git") {
             steps {
-                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/albinavagapova/FinishAttestationVagapova']]) // скачать проект
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/albinavagapova/FinishAttestationVagapova']])
             }
         }
         stage("Run tests") {
