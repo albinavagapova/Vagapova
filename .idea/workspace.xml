@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6d6e457-6054-4380-a9f2-44f5e2500b45" name="Changes" comment="twocommit">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/AuthorizationStandartUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/AuthorizationStandartUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeBisinessTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeBisinessTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BD_Tests/config/CreateEmployees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BD_Tests/config/CreateEmployees.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,37 +97,7 @@
       <recent name="C:\Users\PC\IdeaProjects\FinishAttestation\src\test\java\configs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClassOfStandartAndPerfomansUsers">
-    <configuration name="AuthorizationStandartUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FinishAttestation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UI_Tests.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UI_Tests.tests" />
-      <option name="MAIN_CLASS_NAME" value="UI_Tests.tests.AuthorizationStandartUser" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Check_Error_Message" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FinishAttestation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UI_Tests.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UI_Tests.tests" />
-      <option name="MAIN_CLASS_NAME" value="UI_Tests.tests.Check_Error_Message" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.EmployeeBisinessTests">
     <configuration name="ClassOfStandartAndPerfomansUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FinishAttestation" />
       <extension name="coverage">
@@ -141,22 +113,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Company" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FinishAttestation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BD_Tests.config.*" />
+          <option name="PATTERN" value="API_Tests.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BD_Tests.config" />
-      <option name="MAIN_CLASS_NAME" value="BD_Tests.config.GetEmployees" />
+      <option name="PACKAGE_NAME" value="API_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.Company" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UbdateEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContractTestsEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.ContractTestsEmployee" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FinishAttestation" />
       <extension name="coverage">
         <pattern>
@@ -165,7 +152,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BD_Tests.config" />
-      <option name="MAIN_CLASS_NAME" value="BD_Tests.config.UbdateEmployees" />
+      <option name="MAIN_CLASS_NAME" value="BD_Tests.config.CreateEmployees" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeBisinessTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.EmployeeBisinessTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeeBisinessTests" />
+        <item itemvalue="JUnit.CreateEmployees" />
+        <item itemvalue="JUnit.ContractTestsEmployee" />
+        <item itemvalue="JUnit.Company" />
         <item itemvalue="JUnit.ClassOfStandartAndPerfomansUsers" />
-        <item itemvalue="JUnit.Check_Error_Message" />
-        <item itemvalue="JUnit.AuthorizationStandartUser" />
-        <item itemvalue="JUnit.UbdateEmployees" />
-        <item itemvalue="JUnit.GetEmployees" />
       </list>
     </recent_temporary>
   </component>
