@@ -23,7 +23,7 @@ pipeline {
     }
     post {
         always {
-            script {
+            node {
                 allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
             }
         }
