@@ -10,11 +10,10 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import io.qameta.allure.Allure;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class CreateEmployees {
+public class CreateEmployeesTests {
 
     private static Connection connection;
     private static final String CONNECTION_STRING = ConfigBD.getProperty("CONNECTION_STRING");

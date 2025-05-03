@@ -10,7 +10,7 @@ import org.junit.jupiter.api.AfterEach;
 import com.codeborne.selenide.Configuration;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 
-public class ClassOfStandartAndPerfomansUsers extends FirstSetup {
+public class ClassOfStandartAndPerfomansUsersTests extends FirstSetup {
 
     @ParameterizedTest
     @CsvSource({

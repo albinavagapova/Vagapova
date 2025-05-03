@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import java.sql.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class UbdateEmployees {
+public class UbdateEmployeesTests {
 
     private static Connection connection;
     private static final String CONNECTION_STRING = ConfigBD.getProperty("CONNECTION_STRING");

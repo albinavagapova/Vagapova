@@ -4,7 +4,6 @@ import API_Tests.ext.CreateCompanyResponse;
 import API_Tests.ext.CreateEmployeeResponse;
 import API_Tests.helpers.ApiCompanyHelper;
 import API_Tests.helpers.ApiEmployeeHelper;
-import API_Tests.helpers.ApiToken;
 import API_Tests.helpers.AuthHelper;
 import configs.ConfigApi;
 import io.restassured.RestAssured;
@@ -17,7 +16,7 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class ContractTestsEmployee extends ConfigApi {
+public class EmployeeContractTests extends ConfigApi {
     private static int companyId;
 
 
@@ -26,10 +25,8 @@ public class ContractTestsEmployee extends ConfigApi {
         RestAssured.baseURI = URL;
         apiCompanyHelper = new ApiCompanyHelper();
         authHelper = new AuthHelper();
-        RestAssured.requestSpecification = new RequestSpecBuilder()
-                .setContentType("application/json")
-                .addHeader("x-client-token", ApiToken.getToken())
-                .build();
+        String userToken = authHelper.authAndGetToken("leonardo", "leads");
+        RestAssured.requestSpecification = new RequestSpecBuilder().build().header("x-client-token", userToken);
     }
 
     //создать компанию

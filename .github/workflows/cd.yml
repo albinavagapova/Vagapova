@@ -1,4 +1,5 @@
-name: CI for testsAttestation
+
+name: CI for my tests
 
 on:
   push:
@@ -18,14 +19,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
-      - name: Set up JDK 21
+      - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
-          java-version: '21'
+          java-version: '17'
           distribution: 'temurin'
           cache: maven
-
       - name: Install Allure
         run: |
           curl -o allure.zip -L https://github.com/allure-framework/allure2/releases/download/2.25.0/allure-2.25.0.zip  
@@ -33,23 +32,13 @@ jobs:
           unzip allure.zip -d /opt/allure  
           sudo ln -s /opt/allure/allure-2.25.0/bin/allure /usr/bin/allure
 
-      - name: Run all tests from src/test/java
-        run: mvn clean test -Dtest=* -Dallure.results.directory=target/allure-results
-
-      - name: Create executor.json (GitHub Actions Metadata)
-        run: |
-          echo '{
-            "name": "GitHub Actions",
-            "type": "CI Server",
-            "url": "https://github.com/${{ github.repository }}/actions",
-            "buildOrder": 1,
-            "reportUrl": "https://${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          }' > target/allure-results/executor.json
+      - name: Run tests
+        run: mvn clean test
 
       - name: Generate Allure Report
         run: |
           mkdir -p allure-report  
-          allure generate --clean target/allure-results -o allure-report  
+          allure generate --clean allure-results -o allure-report  
 
       - name: Upload Allure Report as artifact
         uses: actions/upload-pages-artifact@v3

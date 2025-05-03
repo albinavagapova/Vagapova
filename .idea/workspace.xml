@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d6e457-6054-4380-a9f2-44f5e2500b45" name="Changes" comment="twocommit">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+    <list default="true" id="a6d6e457-6054-4380-a9f2-44f5e2500b45" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/testsAttestation.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API_Tests/tests/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Tests/tests/CompanyTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API_Tests/tests/ContractTestsEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeContractTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeBisinessTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeBisinessTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BD_Tests/config/CreateEmployees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BD_Tests/config/CreateEmployees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BD_Tests/config/CreateEmployees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BD_Tests/config/CreateEmployeesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BD_Tests/config/FindEmployees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BD_Tests/config/FindEmployeesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BD_Tests/config/GetEmployees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BD_Tests/config/GetEmployeesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BD_Tests/config/UbdateEmployees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BD_Tests/config/UbdateEmployeesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/AuthorizationStandartUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/AuthorizationStandartUserTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/Check_Error_Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/Check_Error_MessageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/ClassOfStandartAndPerfomansUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/ClassOfStandartAndPerfomansUsersTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/Tets.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +96,9 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/PC/IdeaProjects/FinishAttestation/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
@@ -97,8 +110,8 @@
       <recent name="C:\Users\PC\IdeaProjects\FinishAttestation\src\test\java\configs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeBisinessTests">
-    <configuration name="ClassOfStandartAndPerfomansUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AuthorizationStandartUserTests">
+    <configuration name="AuthorizationStandartUserTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FinishAttestation" />
       <extension name="coverage">
         <pattern>
@@ -107,43 +120,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UI_Tests.tests" />
-      <option name="MAIN_CLASS_NAME" value="UI_Tests.tests.ClassOfStandartAndPerfomansUsers" />
+      <option name="MAIN_CLASS_NAME" value="UI_Tests.tests.AuthorizationStandartUserTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Company" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Check_Error_MessageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FinishAttestation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="PATTERN" value="UI_Tests.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API_Tests.tests" />
-      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.Company" />
+      <option name="PACKAGE_NAME" value="UI_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="UI_Tests.tests.Check_Error_MessageTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContractTestsEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassOfStandartAndPerfomansUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FinishAttestation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="PATTERN" value="UI_Tests.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API_Tests.tests" />
-      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.ContractTestsEmployee" />
+      <option name="PACKAGE_NAME" value="UI_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="UI_Tests.tests.ClassOfStandartAndPerfomansUsersTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateEmployeesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FinishAttestation" />
       <extension name="coverage">
         <pattern>
@@ -152,22 +165,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BD_Tests.config" />
-      <option name="MAIN_CLASS_NAME" value="BD_Tests.config.CreateEmployees" />
+      <option name="MAIN_CLASS_NAME" value="BD_Tests.config.CreateEmployeesTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeBisinessTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindEmployeesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FinishAttestation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="PATTERN" value="BD_Tests.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API_Tests.tests" />
-      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.EmployeeBisinessTests" />
+      <option name="PACKAGE_NAME" value="BD_Tests.config" />
+      <option name="MAIN_CLASS_NAME" value="BD_Tests.config.FindEmployeesTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeBisinessTests" />
-        <item itemvalue="JUnit.CreateEmployees" />
-        <item itemvalue="JUnit.ContractTestsEmployee" />
-        <item itemvalue="JUnit.Company" />
-        <item itemvalue="JUnit.ClassOfStandartAndPerfomansUsers" />
+        <item itemvalue="JUnit.ClassOfStandartAndPerfomansUsersTests" />
+        <item itemvalue="JUnit.Check_Error_MessageTests" />
+        <item itemvalue="JUnit.AuthorizationStandartUserTests" />
+        <item itemvalue="JUnit.FindEmployeesTests" />
+        <item itemvalue="JUnit.CreateEmployeesTests" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745785018071</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="twocommit">
+      <option name="closed" value="true" />
+      <created>1746301109948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746301109948</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,7 +237,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="firstcommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="firstcommit" />
+    <MESSAGE value="twocommit" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -227,9 +250,14 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/API_Tests/tests/ContractTestsEmployee.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeContractTests.java</url>
           <line>16</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BD_Tests/config/FindEmployeesTests.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

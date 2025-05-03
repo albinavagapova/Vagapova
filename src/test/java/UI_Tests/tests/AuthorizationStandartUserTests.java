@@ -3,11 +3,10 @@ package UI_Tests.tests;
 import UI_Tests.FirstSetup;
 import UI_Tests.pageobjects.Authorization;
 import UI_Tests.pageobjects.MainPage;
-import UI_Tests.pageobjects.YourCart;
 import org.junit.jupiter.api.Test;
 
 
-public class AuthorizationStandartUser extends FirstSetup {
+public class AuthorizationStandartUserTests extends FirstSetup {
 
     @Test
     public void testSuccessfulAuthorization() {

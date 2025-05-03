@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 
-public class Check_Error_Message extends FirstSetup {
+public class Check_Error_MessageTests extends FirstSetup {
 
     @Test
     public void testLockedOutUser() {

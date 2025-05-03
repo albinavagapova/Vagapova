@@ -24,10 +24,8 @@ public class EmployeeBisinessTests extends ConfigApi {
         RestAssured.baseURI = URL;
         apiCompanyHelper = new ApiCompanyHelper();
         authHelper = new AuthHelper();
-        RestAssured.requestSpecification = new RequestSpecBuilder()
-                .setContentType("application/json")
-                .addHeader("x-client-token", ApiToken.getToken())
-                .build();
+        String userToken = authHelper.authAndGetToken("leonardo", "leads");
+        RestAssured.requestSpecification = new RequestSpecBuilder().build().header("x-client-token", userToken);
     }
 
 
