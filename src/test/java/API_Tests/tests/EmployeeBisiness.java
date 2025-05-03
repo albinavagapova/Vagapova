@@ -17,15 +17,17 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class EmployeeBisinessTests extends ConfigApi {
+public class EmployeeBisiness extends ConfigApi {
 
     @BeforeAll
     public static void setUp() {
         RestAssured.baseURI = URL;
         apiCompanyHelper = new ApiCompanyHelper();
         authHelper = new AuthHelper();
-        String userToken = authHelper.authAndGetToken("leonardo", "leads");
-        RestAssured.requestSpecification = new RequestSpecBuilder().build().header("x-client-token", userToken);
+        RestAssured.requestSpecification = new RequestSpecBuilder()
+                .setContentType("application/json")
+                .addHeader("x-client-token", ApiToken.getToken())
+                .build();
     }
 
 

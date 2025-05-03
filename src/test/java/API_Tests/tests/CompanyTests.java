@@ -2,6 +2,7 @@ package API_Tests.tests;
 
 import API_Tests.ext.CreateCompanyResponse;
 import API_Tests.helpers.ApiCompanyHelper;
+import API_Tests.helpers.ApiToken;
 import API_Tests.helpers.AuthHelper;
 import configs.ConfigApi;
 import io.restassured.RestAssured;
@@ -20,9 +21,12 @@ public class CompanyTests extends ConfigApi {
         RestAssured.baseURI = URL;
         apiCompanyHelper = new ApiCompanyHelper();
         authHelper = new AuthHelper();
-        String userToken = authHelper.authAndGetToken("leonardo", "leads");
-        RestAssured.requestSpecification = new RequestSpecBuilder().build().header("x-client-token", userToken);
+        RestAssured.requestSpecification = new RequestSpecBuilder()
+                .setContentType("application/json")
+                .addHeader("x-client-token", ApiToken.getToken())
+                .build();
     }
+
 
     // given
     // when
