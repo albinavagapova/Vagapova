@@ -1,4 +1,4 @@
-package BD_Tests.config;
+package BD_Tests.tests;
 
 import configs.ConfigBD;
 import org.junit.jupiter.api.AfterAll;

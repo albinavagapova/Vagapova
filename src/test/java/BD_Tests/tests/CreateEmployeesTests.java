@@ -1,4 +1,4 @@
-package BD_Tests.config;
+package BD_Tests.tests;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
