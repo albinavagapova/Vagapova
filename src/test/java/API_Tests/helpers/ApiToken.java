@@ -16,6 +16,6 @@ public class ApiToken {
     }
 
     private static boolean isTokenExpired() {
-       return false;
+       return true;
     }
 }

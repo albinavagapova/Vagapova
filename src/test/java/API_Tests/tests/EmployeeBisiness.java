@@ -22,7 +22,6 @@ public class EmployeeBisiness extends ConfigApi {
     @BeforeAll
     public static void setUp() {
         RestAssured.baseURI = URL;
-        apiCompanyHelper = new ApiCompanyHelper();
         authHelper = new AuthHelper();
         RestAssured.requestSpecification = new RequestSpecBuilder()
                 .setContentType("application/json")
