@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6d6e457-6054-4380-a9f2-44f5e2500b45" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/auth_config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/API_Tests/tests/CompanyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Tests/tests/CompanyTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeBisinessTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeBisiness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeContractTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,63 +36,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.main.executor": "Run",
-    "JUnit.AuthorizationStandartUser.executor": "Run",
-    "JUnit.BdTests.createEmployeeSuccess.executor": "Run",
-    "JUnit.BdTests.createEmployeeUsingCompanyId.executor": "Run",
-    "JUnit.BdTests.executor": "Run",
-    "JUnit.CartForPerformanceGlitchUser.executor": "Run",
-    "JUnit.CartOfStandart_user.executor": "Run",
-    "JUnit.Check_Error_Message.executor": "Run",
-    "JUnit.ClassOfStandartAndPerfomansUsers.executor": "Run",
-    "JUnit.Company.createCompany.executor": "Run",
-    "JUnit.Company.deleteCompany.executor": "Run",
-    "JUnit.Company.executor": "Run",
-    "JUnit.Company.getCompany.executor": "Run",
-    "JUnit.Company.getCompanyList.executor": "Run",
-    "JUnit.CompanyTests.executor": "Run",
-    "JUnit.ContractTestsEmployee.createCompany.executor": "Run",
-    "JUnit.ContractTestsEmployee.createEmployee.executor": "Run",
-    "JUnit.ContractTestsEmployee.createEmployeeInvalidEmail.executor": "Run",
-    "JUnit.ContractTestsEmployee.executor": "Run",
-    "JUnit.ContractTestsEmployee.getCompany.executor": "Run",
-    "JUnit.ContractTestsEmployee.getEmployee.executor": "Run",
-    "JUnit.ContractTestsEmployee.getEmployeesByCompanyId.executor": "Run",
-    "JUnit.ContractTestsEmployee.getEmployeesByCompanyIdNull.executor": "Run",
-    "JUnit.ContractTestsEmployee.getNullEmployee.executor": "Run",
-    "JUnit.ContractTestsEmployee.patchEmployee.executor": "Run",
-    "JUnit.CreateEmployees.createEmployeeSuccess.executor": "Run",
-    "JUnit.CreateEmployees.executor": "Run",
-    "JUnit.EmployeeBisinessTests.createEmployee.executor": "Run",
-    "JUnit.EmployeeBisinessTests.executor": "Run",
-    "JUnit.EmployeeBisinessTests.getEmployeeByIdSuccess.executor": "Run",
-    "JUnit.EmployeeBisinessTests.getEmployeeByNull.executor": "Run",
-    "JUnit.EmployeeContractTests.createCompany.executor": "Run",
-    "JUnit.EmployeeContractTests.executor": "Run",
-    "JUnit.FindEmployees.executor": "Run",
-    "JUnit.FindEmployees.findEmployeeByIdSuccess.executor": "Run",
-    "JUnit.FindEmployees.findEmployeeByNonexistentId.executor": "Run",
-    "JUnit.GetEmployees.checkEmployeeIdsPresenceByCompanyId.executor": "Run",
-    "JUnit.GetEmployees.executor": "Run",
-    "JUnit.GetEmployees.getAllEmployeeIdsByCompanyId.executor": "Run",
-    "JUnit.GetEmployees.getAllEmployeeIdsByNonexistentCompanyId.executor": "Run",
-    "JUnit.Locked_Out_User.executor": "Run",
-    "JUnit.UbdateEmployees.executor": "Run",
-    "JUnit.UbdateEmployees.updateEmployeeSuccess.executor": "Run",
-    "JUnit.UbdateEmployees.updateEmployeeWithInvalidData.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/PC/IdeaProjects/FinishAttestation/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthorizationStandartUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthorizationStandartUserTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BdTests.createEmployeeSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BdTests.createEmployeeUsingCompanyId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BdTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartForPerformanceGlitchUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CartOfStandart_user.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Check_Error_Message.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Check_Error_MessageTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClassOfStandartAndPerfomansUsers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClassOfStandartAndPerfomansUsersTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Company.createCompany.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Company.deleteCompany.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Company.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Company.getCompany.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Company.getCompanyList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompanyTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.createCompany.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.createEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.createEmployeeInvalidEmail.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.getCompany.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.getEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.getEmployeesByCompanyId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.getEmployeesByCompanyIdNull.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.getNullEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContractTestsEmployee.patchEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateEmployees.createEmployeeSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateEmployees.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateEmployeesTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeBisiness.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeBisinessTests.createEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeBisinessTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeBisinessTests.getEmployeeByIdSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeBisinessTests.getEmployeeByNull.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeContract.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeContractTests.createCompany.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeContractTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindEmployees.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindEmployees.findEmployeeByIdSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindEmployees.findEmployeeByNonexistentId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindEmployeesTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GetEmployees.checkEmployeeIdsPresenceByCompanyId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GetEmployees.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GetEmployees.getAllEmployeeIdsByCompanyId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GetEmployees.getAllEmployeeIdsByNonexistentCompanyId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GetEmployeesTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Locked_Out_User.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UbdateEmployees.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UbdateEmployees.updateEmployeeSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UbdateEmployees.updateEmployeeWithInvalidData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UbdateEmployeesTests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/PC/IdeaProjects/FinishAttestation/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PC\IdeaProjects\FinishAttestation" />
@@ -103,9 +110,39 @@
       <recent name="C:\Users\PC\IdeaProjects\FinishAttestation\src\test\java\configs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeBisinessTests">
+  <component name="RunManager" selected="JUnit.ClassOfStandartAndPerfomansUsersTests">
+    <configuration name="AuthorizationStandartUserTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestationVagapova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UI_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UI_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="UI_Tests.tests.AuthorizationStandartUserTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Check_Error_MessageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestationVagapova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UI_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UI_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="UI_Tests.tests.Check_Error_MessageTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClassOfStandartAndPerfomansUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FinishAttestation" />
+      <module name="FinishAttestationVagapova" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="UI_Tests.tests.*" />
@@ -119,87 +156,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompanyTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetEmployeesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FinishAttestationVagapova" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="PATTERN" value="BD_Tests.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API_Tests.tests" />
-      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.CompanyTests" />
+      <option name="PACKAGE_NAME" value="BD_Tests.config" />
+      <option name="MAIN_CLASS_NAME" value="BD_Tests.config.GetEmployeesTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeBisiness" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UbdateEmployeesTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FinishAttestationVagapova" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="PATTERN" value="BD_Tests.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API_Tests.tests" />
-      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.EmployeeBisiness" />
+      <option name="PACKAGE_NAME" value="BD_Tests.config" />
+      <option name="MAIN_CLASS_NAME" value="BD_Tests.config.UbdateEmployeesTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeContract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FinishAttestationVagapova" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API_Tests.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API_Tests.tests" />
-      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.EmployeeContract" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeContract.createCompany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FinishAttestationVagapova" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API_Tests.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API_Tests.tests" />
-      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.EmployeeContract" />
-      <option name="METHOD_NAME" value="createCompany" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="FinishAttestationVagapova" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="FinishAttestationVagapova" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeBisinessTests" />
-        <item itemvalue="JUnit.EmployeeContractTests" />
-        <item itemvalue="JUnit.CompanyTests" />
-        <item itemvalue="JUnit.EmployeeContract.createCompany" />
         <item itemvalue="JUnit.ClassOfStandartAndPerfomansUsersTests" />
+        <item itemvalue="JUnit.Check_Error_MessageTests" />
+        <item itemvalue="JUnit.AuthorizationStandartUserTests" />
+        <item itemvalue="JUnit.UbdateEmployeesTests" />
+        <item itemvalue="JUnit.GetEmployeesTests" />
       </list>
     </recent_temporary>
   </component>
@@ -260,11 +253,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeContract.java</url>
           <line>16</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/BD_Tests/config/FindEmployeesTests.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
