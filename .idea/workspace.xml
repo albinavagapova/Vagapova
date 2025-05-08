@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6d6e457-6054-4380-a9f2-44f5e2500b45" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cd.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeBisiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeBisiness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_Tests/FirstSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_Tests/FirstSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/AuthorizationStandartUserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/AuthorizationStandartUserTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/Check_Error_MessageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/Check_Error_MessageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/ClassOfStandartAndPerfomansUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/ClassOfStandartAndPerfomansUsersTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +114,52 @@
       <recent name="C:\Users\PC\IdeaProjects\FinishAttestation\src\test\java\configs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeContractTests">
+  <component name="RunManager" selected="JUnit.ClassOfStandartAndPerfomansUsersTests">
+    <configuration name="AuthorizationStandartUserTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestationVagapova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UI_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UI_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="UI_Tests.tests.AuthorizationStandartUserTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Check_Error_MessageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestationVagapova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UI_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UI_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="UI_Tests.tests.Check_Error_MessageTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassOfStandartAndPerfomansUsersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestationVagapova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UI_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UI_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="UI_Tests.tests.ClassOfStandartAndPerfomansUsersTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompanyTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FinishAttestationVagapova" />
       <extension name="coverage">
@@ -125,37 +171,6 @@
       <option name="PACKAGE_NAME" value="API_Tests.tests" />
       <option name="MAIN_CLASS_NAME" value="API_Tests.tests.CompanyTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeBisiness" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FinishAttestationVagapova" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API_Tests.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API_Tests.tests" />
-      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.EmployeeBisiness" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeBisiness.getEmployeeByNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FinishAttestationVagapova" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API_Tests.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API_Tests.tests" />
-      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.EmployeeBisiness" />
-      <option name="METHOD_NAME" value="getEmployeeByNull" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,29 +190,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeContract.createEmployeeInvalidEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FinishAttestationVagapova" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API_Tests.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API_Tests.tests" />
-      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.EmployeeContract" />
-      <option name="METHOD_NAME" value="createEmployeeInvalidEmail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClassOfStandartAndPerfomansUsersTests" />
+        <item itemvalue="JUnit.Check_Error_MessageTests" />
+        <item itemvalue="JUnit.AuthorizationStandartUserTests" />
         <item itemvalue="JUnit.EmployeeContractTests" />
         <item itemvalue="JUnit.CompanyTests" />
-        <item itemvalue="JUnit.EmployeeBisinessTests" />
-        <item itemvalue="JUnit.EmployeeContract.createEmployeeInvalidEmail" />
-        <item itemvalue="JUnit.EmployeeBisiness.getEmployeeByNull" />
       </list>
     </recent_temporary>
   </component>
@@ -258,6 +257,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeContract.java</url>
           <line>16</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UI_Tests/tests/ClassOfStandartAndPerfomansUsersTests.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
