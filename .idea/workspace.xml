@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d6e457-6054-4380-a9f2-44f5e2500b45" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI_Tests/FirstSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_Tests/FirstSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/AuthorizationStandartUserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/AuthorizationStandartUserTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/Check_Error_MessageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/Check_Error_MessageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/ClassOfStandartAndPerfomansUsersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI_Tests/tests/ClassOfStandartAndPerfomansUsersTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="a6d6e457-6054-4380-a9f2-44f5e2500b45" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -33,8 +33,13 @@ jobs:
           unzip allure.zip -d /opt/allure  
           sudo ln -s /opt/allure/allure-2.25.0/bin/allure /usr/bin/allure
 
+      - name: Clear Chrome sessions before tests
+        run: |
+          killall -9 chrome || true
+          rm -rf /tmp/chrome-profile*
+
       - name: Run only working tests
-        run: mvn clean test -Dtest=CompanyTests,CreateEmployeesTests,FindEmployeesTests,GetEmployeesTests,UbdateEmployeesTests,AuthorizationStandartUserTests,Check_Error_MessageTests,ClassOfStandartAndPerfomansUsersTests -Dallure.results.directory=target/allure-results
+        run: mvn clean test -Dtest=CompanyTests,CreateEmployeesTests,FindEmployeesTests,GetEmployeesTests,UpdateEmployeesTests,AuthorizationStandartUserTests,Check_Error_MessageTests,ClassOfStandartAndPerfomansUsersTests -Dallure.results.directory=target/allure-results
 
       - name: Create executor.json (GitHub Actions Metadata)
         run: |
