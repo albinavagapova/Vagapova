@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6d6e457-6054-4380-a9f2-44f5e2500b45" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeBisiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeBisiness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeContract.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2w8pICap11ggIcQdndCrmpiyfVU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.main.executor": "Run",
+    "JUnit.AuthorizationStandartUser.executor": "Run",
+    "JUnit.AuthorizationStandartUserTests.executor": "Run",
+    "JUnit.BdTests.createEmployeeSuccess.executor": "Run",
+    "JUnit.BdTests.createEmployeeUsingCompanyId.executor": "Run",
+    "JUnit.BdTests.executor": "Run",
+    "JUnit.CartForPerformanceGlitchUser.executor": "Run",
+    "JUnit.CartOfStandart_user.executor": "Run",
+    "JUnit.Check_Error_Message.executor": "Run",
+    "JUnit.Check_Error_MessageTests.executor": "Run",
+    "JUnit.ClassOfStandartAndPerfomansUsers.executor": "Run",
+    "JUnit.ClassOfStandartAndPerfomansUsersTests.executor": "Run",
+    "JUnit.Company.createCompany.executor": "Run",
+    "JUnit.Company.deleteCompany.executor": "Run",
+    "JUnit.Company.executor": "Run",
+    "JUnit.Company.getCompany.executor": "Run",
+    "JUnit.Company.getCompanyList.executor": "Run",
+    "JUnit.CompanyTests.executor": "Run",
+    "JUnit.ContractTestsEmployee.createCompany.executor": "Run",
+    "JUnit.ContractTestsEmployee.createEmployee.executor": "Run",
+    "JUnit.ContractTestsEmployee.createEmployeeInvalidEmail.executor": "Run",
+    "JUnit.ContractTestsEmployee.executor": "Run",
+    "JUnit.ContractTestsEmployee.getCompany.executor": "Run",
+    "JUnit.ContractTestsEmployee.getEmployee.executor": "Run",
+    "JUnit.ContractTestsEmployee.getEmployeesByCompanyId.executor": "Run",
+    "JUnit.ContractTestsEmployee.getEmployeesByCompanyIdNull.executor": "Run",
+    "JUnit.ContractTestsEmployee.getNullEmployee.executor": "Run",
+    "JUnit.ContractTestsEmployee.patchEmployee.executor": "Run",
+    "JUnit.CreateEmployees.createEmployeeSuccess.executor": "Run",
+    "JUnit.CreateEmployees.executor": "Run",
+    "JUnit.CreateEmployeesTests.executor": "Run",
+    "JUnit.EmployeeBisiness.executor": "Run",
+    "JUnit.EmployeeBisiness.getEmployeeByNull.executor": "Run",
+    "JUnit.EmployeeBisinessTests.createEmployee.executor": "Run",
+    "JUnit.EmployeeBisinessTests.executor": "Run",
+    "JUnit.EmployeeBisinessTests.getEmployeeByIdSuccess.executor": "Run",
+    "JUnit.EmployeeBisinessTests.getEmployeeByNull.executor": "Run",
+    "JUnit.EmployeeContract.createEmployeeInvalidEmail.executor": "Run",
+    "JUnit.EmployeeContract.executor": "Run",
+    "JUnit.EmployeeContractTests.createCompany.executor": "Run",
+    "JUnit.EmployeeContractTests.executor": "Run",
+    "JUnit.FindEmployees.executor": "Run",
+    "JUnit.FindEmployees.findEmployeeByIdSuccess.executor": "Run",
+    "JUnit.FindEmployees.findEmployeeByNonexistentId.executor": "Run",
+    "JUnit.FindEmployeesTests.executor": "Run",
+    "JUnit.GetEmployees.checkEmployeeIdsPresenceByCompanyId.executor": "Run",
+    "JUnit.GetEmployees.executor": "Run",
+    "JUnit.GetEmployees.getAllEmployeeIdsByCompanyId.executor": "Run",
+    "JUnit.GetEmployees.getAllEmployeeIdsByNonexistentCompanyId.executor": "Run",
+    "JUnit.GetEmployeesTests.executor": "Run",
+    "JUnit.Locked_Out_User.executor": "Run",
+    "JUnit.UbdateEmployees.executor": "Run",
+    "JUnit.UbdateEmployees.updateEmployeeSuccess.executor": "Run",
+    "JUnit.UbdateEmployees.updateEmployeeWithInvalidData.executor": "Run",
+    "JUnit.UbdateEmployeesTests.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/PC/IdeaProjects/FinishAttestation/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\FinishAttestation" />
+      <recent name="C:\Users\PC\IdeaProjects\FinishAttestation\src\main" />
+      <recent name="C:\Users\PC\IdeaProjects\FinishAttestation\src\test\java" />
+      <recent name="C:\Users\PC\IdeaProjects\FinishAttestation\src\test\java\configs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EmployeeContractTests">
+    <configuration name="CompanyTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestationVagapova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.CompanyTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeBisiness" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestationVagapova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.EmployeeBisiness" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeBisiness.getEmployeeByNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestationVagapova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.EmployeeBisiness" />
+      <option name="METHOD_NAME" value="getEmployeeByNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeContract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestationVagapova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.EmployeeContract" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeContract.createEmployeeInvalidEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinishAttestationVagapova" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="API_Tests.tests.EmployeeContract" />
+      <option name="METHOD_NAME" value="createEmployeeInvalidEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeContractTests" />
+        <item itemvalue="JUnit.CompanyTests" />
+        <item itemvalue="JUnit.EmployeeBisinessTests" />
+        <item itemvalue="JUnit.EmployeeContract.createEmployeeInvalidEmail" />
+        <item itemvalue="JUnit.EmployeeBisiness.getEmployeeByNull" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6d6e457-6054-4380-a9f2-44f5e2500b45" name="Changes" comment="" />
+      <created>1745432974556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745432974556</updated>
+    </task>
+    <task id="LOCAL-00001" summary="firstcommit">
+      <option name="closed" value="true" />
+      <created>1745785018071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745785018071</updated>
+    </task>
+    <task id="LOCAL-00002" summary="twocommit">
+      <option name="closed" value="true" />
+      <created>1746301109948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746301109948</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="firstcommit" />
+    <MESSAGE value="twocommit" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/API_Tests/tests/EmployeeContract.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

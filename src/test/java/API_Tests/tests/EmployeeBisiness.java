@@ -1,7 +1,6 @@
 package API_Tests.tests;
 
 import API_Tests.ext.CreateEmployeeResponse;
-import API_Tests.helpers.ApiCompanyHelper;
 import API_Tests.helpers.ApiEmployeeHelper;
 import API_Tests.helpers.ApiToken;
 import API_Tests.helpers.AuthHelper;
