@@ -43,13 +43,17 @@ jobs:
 
       - name: Create executor.json (GitHub Actions Metadata)
         run: |
+          mkdir -p target/allure-results
           echo '{
             "name": "GitHub Actions",
             "type": "CI Server",
-            "url": "https://github.com/${{ github.repository }}/actions",
-            "buildOrder": 1,
-            "reportUrl": "https://${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            "url": "${{ github.server_url }}/${{ github.repository }}/actions",
+            "buildOrder": ${{ github.run_number }},
+            "reportUrl": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           }' > target/allure-results/executor.json
+
+      - name: Verify executor.json presence
+        run: ls -alh target/allure-results
 
       - name: Generate Allure Report
         run: |
