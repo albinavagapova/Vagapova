@@ -4,26 +4,13 @@ import UI_Tests.FirstSetup;
 import UI_Tests.pageobjects.Authorization;
 import UI_Tests.pageobjects.CheckOut;
 import UI_Tests.pageobjects.YourCart;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.junit.jupiter.api.AfterEach;
 import com.codeborne.selenide.Configuration;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class ClassOfStandartAndPerfomansUsersTests extends FirstSetup {
-
-    private WebDriver driver;
-
-    @BeforeEach
-    public void setup() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--user-data-dir=/tmp/chrome-profile-" + System.nanoTime()); // Уникальный профиль
-        driver = new ChromeDriver(options);
-    }
 
     @ParameterizedTest
     @CsvSource({
@@ -31,7 +18,7 @@ public class ClassOfStandartAndPerfomansUsersTests extends FirstSetup {
             "standard_user, secret_sauce, 4000"
     })
     public void testCartUsers(String username, String password, int timeout) {
-        // Таймаут для двух пользователей
+        // таймут для двух пользователей
         Configuration.timeout = timeout;
 
         Authorization loginPage = new Authorization();
@@ -55,9 +42,6 @@ public class ClassOfStandartAndPerfomansUsersTests extends FirstSetup {
 
     @AfterEach
     public void tearDown() {
-        if (driver != null) {
-            driver.quit(); // Корректное закрытие браузера после теста
-        }
-        closeWebDriver();
+        closeWebDriver(); // Закрыть браузер после теста
     }
 }
