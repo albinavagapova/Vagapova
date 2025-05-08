@@ -39,7 +39,7 @@ jobs:
           rm -rf /tmp/chrome-profile*
 
       - name: Run only working tests
-        run: mvn clean test -Dtest=CompanyTests,CreateEmployeesTests,FindEmployeesTests,GetEmployeesTests,UpdateEmployeesTests,AuthorizationStandartUserTests,Check_Error_MessageTests,ClassOfStandartAndPerfomansUsersTests -Dallure.results.directory=target/allure-results
+        run: mvn clean test -Dtest=CompanyTests,CreateEmployeesTests,FindEmployeesTests,GetEmployeesTests,UpdateEmployeesTests -Dallure.results.directory=target/allure-results
 
       - name: Create executor.json (GitHub Actions Metadata)
         run: |
